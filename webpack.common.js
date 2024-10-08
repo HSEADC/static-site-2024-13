@@ -80,6 +80,23 @@ module.exports = {
       filename: './index.html'
     }),
 
+  //стрвницы разделов
+  new HtmlWebpackPlugin({
+    template: './src/library.html',
+    filename: './library.html'
+  }),
+
+    new HtmlWebpackPlugin({
+      template: './src/retrospection.html',
+      filename: './retrospection.html'
+    }),
+  
+      //стрвницы разделов
+      new HtmlWebpackPlugin({
+        template: './src/library_articles/article.html',
+        filename: './library_articles/article.html'
+      }),
+    
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,
